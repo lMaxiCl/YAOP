@@ -9,7 +9,7 @@ GoRouter router() => GoRouter(
           builder: (context, state) => HomePageRoot(),
         ),
         GoRoute(
-          path: '/:itemId',
+          path: '/:itemName',
           builder: (context, state) => DetailsPageRoot(state.extra),
         ),
       ],

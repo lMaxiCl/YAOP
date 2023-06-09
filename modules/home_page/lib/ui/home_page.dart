@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                         ListTile(
                           title: Text(state.spaceCrafts[index].name!),
                           onTap: () => context.push(
-                            '/details',
+                            '/${state.spaceCrafts[index].name}',
                             extra: state.spaceCrafts[index],
                           ),
                         ),
